@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>ZELA - Artisanal Mining Sites in the Runde Rural District, Zimbabwe</title>
+  <!--<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />-->
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<body>
+  <nav id='filter' class='box filter menu'><div id='filterTitle'>Filter</div></nav> <!--Add inside filterTitle <div id='filterSubtitle'></div> -->
+  <nav id='toggle' class='box toggle menu'><div id='toggleTitle'>Options</div></nav>
+  <div id="map"></div>
+  <div id='info' class='box info'>
+    <h1>Artisanal Mining Sites in the Runde Rural District, Zimbabwe</h1>
+    <a href="http://www.zela.org/"><img src="img/zelalogo.jpg" alt="ZELA Logo" style="
+        position: absolute;
+        right: 60px;
+        bottom: 10px;
+        width: 42px;"></a>
+    <a href="http://ipisresearch.be"><img src="img/ipislogo.png" alt="IPIS Logo" style="
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    width: 42px;"></a>
+    <p>The Zimbabwe Environmental Law Association (ZELA) conducted a pilot study about Artisanal and Small-Scale Mining (ASM) sites in the Runde Rural District (RRD). A total of 317 sites were visited in February 2019, and questionnaires were completed at each site.</p>
+    <p>The aim of this study is to provide information to government, the Runde Rural District Council (RRDC) and Environmental Management Agency (EMA) on the profile, nature, ownership, operations and impacts of artisanal and small-scale gold mining in the district. In addition, this webmap will also assist the RRDC in the collection of taxes and levies from the ASM sector as part of efforts to promote domestic resource mobilisation.</p>
+    <p>Webmap made with support of the International Peace Information Service (IPIS).</p>
+  </div>
+
+  <div id="overlay" class="modal">
+       <img id="overlay-img" class="modal-content">
+  </div>
+
+  <script src='map.js'></script>
+
+</body>
+</html>
