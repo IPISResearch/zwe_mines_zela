@@ -1,4 +1,10 @@
-# A Mapbox GL template
+# Artisanal Mining Sites in the Runde Rural District, Zimbabwe
+
+The Zimbabwe Environmental Law Association (ZELA) conducted a pilot study about Artisanal and Small-Scale Mining (ASM) sites in the Runde Rural District (RRD). A total of 317 sites were visited in February 2019, and questionnaires were completed at each site.
+
+The aim of this study is to provide information to government, the Runde Rural District Council (RRDC) and Environmental Management Agency (EMA) on the profile, nature, ownership, operations and impacts of artisanal and small-scale gold mining in the district. In addition, this webmap will also assist the RRDC in the collection of taxes and levies from the ASM sector as part of efforts to promote domestic resource mobilisation.
+
+Webmap made with support of the International Peace Information Service (IPIS).
 
 ## Getting started
 
